@@ -1,0 +1,108 @@
+.container{
+    height: 50px;
+    width: 100%;
+    background-color: #3870df;
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top:0;
+
+}
+.cursive{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.left{
+    flex:3;
+
+
+}
+.center{
+    flex:5;
+
+}
+.searchbar{
+    width: 100%;
+    background-color: #fff;
+    height: 30px;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+    display: flex;
+    align-items: center;
+    gap:3rem
+  
+
+
+}
+.icons{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.searchInput{
+    outline: none;
+    border: none;
+    width: 34%;
+}
+.right{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:#fff
+
+}
+.topbaricons{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.topbarlinks{
+    margin-right: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+.topimg{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    object-fit: cover;
+    cursor: pointer;
+}
+.topbariconsitems{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+
+}
+.topbariconbages{
+    width: 15px;
+    height: 15px;
+    background-color: #ff0404;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color:white;
+    position: absolute;
+    top:-5px;
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+    justify-content: center;
+    
+}
