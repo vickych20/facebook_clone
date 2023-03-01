@@ -1,3 +1,88 @@
 .rights{
-    flex:4
+    flex:3.5;
+    overflow-y: scroll;
+    height: 100vh;
 }
+.rightwrapper{
+    padding: 20px 20px 0 0;
+
+}
+.birthdayimg{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.birthdaytext{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing:2px;
+}
+.birthdaycontainer{
+    display: flex;align-items: center;
+}
+.rightbarAd{
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 20px ;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.rightbarfrientslist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.rightbarfriends{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+.rightbarimgcontainer{
+    margin-right: 10px;
+    position:relative
+}
+.rightbarprofileimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.rightbaronline{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #09d621;
+    position: absolute;
+    top:-2px;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border:2px solid rgb(255, 255, 255);
+}
+.rightbarusername{
+    font-weight: 500;
+}
+.rightbartitle{
+    margin-bottom: 20px;
+}
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+ ::-webkit-scrollbar-track{
+    background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffffff;
+
+} 

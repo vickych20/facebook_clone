@@ -5,14 +5,15 @@ import p from '../../assets/p.jpg'
 import mr from '../../assets/mr.webp'
 import like from '../../assets/like.jpg'
 
-const Post = () => {
+const Post = (post) => {
+    
   return (
       <div className='post'>
           <div className="postwrapper">
               <div className="posttop">
                   <div className="posttopleft">
                       <img src={p} alt="" className="postprofileimg" />
-                      <span className="postusername">ravi kumar</span>
+                      <span className="postusername">Ravi kumar</span>
                       <span className="postdate">5 min ago</span>
                   </div>
                   <div className="posttopright">
