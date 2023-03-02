@@ -4,8 +4,10 @@ import { FiMoreVertical } from 'react-icons/fi';
 import p from '../../assets/p.jpg'
 import mr from '../../assets/mr.webp'
 import like from '../../assets/like.jpg'
+import user from '../../dummydata';
 
 const Post = (post) => {
+    
     
   return (
       <div className='post'>
