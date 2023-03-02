@@ -3,6 +3,9 @@ import './right.css';
 import bth from '../../assets/btd.webp'
 import ad from '../../assets/mop.webp'
 import pl from '../../assets/lo.jpg'
+import user from '../../dummydata';
+import Online from '../online/Online';
+
 
 const Right = () => {
   return (
@@ -17,7 +20,10 @@ const Right = () => {
         <img src={ad} alt="" className="rightbarAd" />
         <h4 className='rightbartitle'>Online Friends</h4>
         <ul className="rightbarfrientslist">
-          <li className="rightbarfriends">
+          {user.map(u=>(
+            <Online key={u.id} user={u}/>
+          ))}
+          {/* <li className="rightbarfriends">
             <div className="rightbarimgcontainer">
               <img src={pl} alt="" className='rightbarprofileimg
               '/>
@@ -112,7 +118,7 @@ const Right = () => {
               <span className="rightbaronline"></span>
             </div>
             <div className="rightbarusername">aditya kumar</div>
-          </li>
+          </li> */}
         </ul>
       </div>
 

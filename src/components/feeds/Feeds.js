@@ -38,25 +38,30 @@ const Feeds = () => {
                       <div className="posttopleft">
                         <img src={i.photo} alt="" className="postprofileimg" />
                         <span className="postusername">{i.username}</span>
-                        <span className="postdate">5 min ago</span>
+                        <span className="postdate">{i.date} min ago</span>
                       </div>
                       <div className="posttopright">
                         <FiMoreVertical />
                       </div>
                     </div>
                     <div className="postcenter">
-                      <span className="posttext">Hey! Its my first post:</span>
+                      <span className="posttext">
+                        {i.desc}
+                      
+                      </span>
                       <img src={i.photo} alt="" className="postimages" />
                     </div>
                     <div className="postbuttom">
                       <div className="buttomleft">
                         <img src={like} alt="" className="likeicon" />
                         <span className="postlikecounter">
-                          32 people liked it
+                          {i.like} people liked it
                         </span>
                       </div>
                       <div className="podtbuttomright">
-                        <span className="postcommenttext">9 comments</span>
+                        <span className="postcommenttext">
+                          {i.comment} comments
+                        </span>
                       </div>
                     </div>
                   </div>

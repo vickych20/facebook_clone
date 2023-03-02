@@ -2,6 +2,7 @@
     flex:3.5;
     overflow-y: scroll;
     height: 100vh;
+    margin-left: 40px;
 }
 .rightwrapper{
     padding: 20px 20px 0 0;
