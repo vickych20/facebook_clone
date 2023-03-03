@@ -1,0 +1,102 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color:#dbdde0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginwrappeer{
+    width: 70%;
+    height: 70%;
+    /* background-color: #dbdde0; */
+    display: flex;
+    gap: 30px;
+}
+.loginleft{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.loginright{
+    flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+
+}
+.loginlogo{
+    font-size: 50px;
+    font-weight: 800;
+    color:#1775ee;
+    margin-bottom: 10px;
+
+}
+.logindesc{
+    font-size: 23px;
+}
+.loginbox{
+    height: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;justify-content: space-between;
+    margin-right: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.logininput{
+    height: 50px;
+    border-radius: 10px;
+    border:1px solid gray;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+.loginbutton{
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    background-color: #1775ee;
+    color:#ffF;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.loginforgat{
+    text-align: center;
+    color:#1775ee
+}
+.loginregistrationbutton{
+    height: 50px;
+    width: 50%;
+    align-self: center;
+        border-radius: 10px;
+        border: none;
+        background-color: #11ff00;
+        color: #ffF;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+
+}

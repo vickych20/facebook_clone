@@ -136,10 +136,10 @@ const user = [
   {
     id: 12,
     profilepicture:
-      "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg",
+      "https://content.wolfram.com/uploads/sites/43/2016/04/hardy-and-ramanujan-in-the-man-who-knew-infinity.png",
     username: "Ravish",
     photo:
-      "https://thelogicalindian.com/h-upload/2021/12/11/208402-untitled-design-6.jpg",
+      "https://content.wolfram.com/uploads/sites/43/2016/04/hardy-and-ramanujan-in-the-man-who-knew-infinity.png",
     date: "15 mins ago",
     userId: 2,
     like: 2,

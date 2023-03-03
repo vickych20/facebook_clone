@@ -57,6 +57,9 @@
    
    
 }
+.likke{
+    color:rgb(13, 94, 235)
+}
 .postbuttom{
     display: flex;
     align-items: center;

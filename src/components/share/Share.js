@@ -13,7 +13,7 @@ const Share = () => {
         <div className="shareTop">
           <img src={ik} alt="" className="shareprofileimages" />
           <input
-            placeholder="what`s in your mind Safak ?"
+            placeholder="what`s on your mind, vicky ?"
             className="shareinput"
           />
         </div>

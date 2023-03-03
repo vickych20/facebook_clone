@@ -1,7 +1,7 @@
 .container{
     height: 50px;
     width: 100%;
-    background-color: #3870df;
+    background-color: #1775ee;
     display: flex;
     align-items: center;
     position:sticky;
@@ -40,6 +40,19 @@
     gap:3rem
   
 
+
+}
+.logoi{
+    color:#fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.left{
+     display: flex;
+    align-items: center;
+    flex-direction: row;
 
 }
 .icons{

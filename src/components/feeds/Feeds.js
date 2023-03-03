@@ -8,7 +8,10 @@ import "../post/post.css";
 import { FiMoreVertical } from "react-icons/fi";
 import p from "../../assets/p.jpg";
 import mr from "../../assets/mr.webp";
-import like from "../../assets/like.jpg";
+import { AiFillLike } from "react-icons/ai";
+import { FcLike } from "react-icons/fc";
+import l from "../../assets/lk.png";
+
 
 
 
@@ -25,7 +28,7 @@ const Feeds = () => {
   return (
     <div className="feed">
       <div className="feedwrap">
-        {/* <Share /> */}
+        <Share />
         {user &&
           user.map((i, key) => {
            
@@ -45,15 +48,14 @@ const Feeds = () => {
                       </div>
                     </div>
                     <div className="postcenter">
-                      <span className="posttext">
-                        {i.desc}
-                      
-                      </span>
+                      <span className="posttext">{i.desc}</span>
                       <img src={i.photo} alt="" className="postimages" />
                     </div>
                     <div className="postbuttom">
                       <div className="buttomleft">
-                        <img src={like} alt="" className="likeicon" />
+                        <img src={l} alt="" className="imgicon"/>
+                        <AiFillLike className="likke" />
+                        <FcLike />
                         <span className="postlikecounter">
                           {i.like} people liked it
                         </span>

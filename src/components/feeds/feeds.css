@@ -4,3 +4,14 @@
     margin-left: 10px;
 
 }
+.buttomleft{
+    display: flex;
+gap: 10px;
+font-size: 30px;
+};
+.likke{
+    color:rgb(0, 98, 255)
+}
+.imgicon{
+    width: 30px;
+}
